@@ -101,7 +101,7 @@
                    BOOKTIME
                 </div>
 
-         
+
                 <span class="subtitle">
                    <button type="button" class="btn btn-success">
                     Getting started

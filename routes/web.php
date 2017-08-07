@@ -32,3 +32,9 @@ Route::post('contact', 'ContactController@store');
 
 Route::get('photo', 'PhotoController@create');
 Route::post('photo', 'PhotoController@store');
+
+
+/**email validation form*/
+
+Route::get('email', 'EmailController@create');
+Route::post('email', 'EmailController@store')->name('store.email');
