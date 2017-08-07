@@ -9,6 +9,8 @@ class WelcomeController extends Controller
     //HomeMethod
     public function index()
     {
+
         return view('welcome');
+       
     }
 }

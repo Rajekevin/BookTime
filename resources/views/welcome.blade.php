@@ -13,12 +13,23 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #636b6f;
+
+
+                /*height: 100vh;*/
+                margin:0;
+                padding:0;
+                background: url(img/wallpaper/booktimewall.jpg) no-repeat center fixed;
+                -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+                background-size: cover; /* version standardisée */
+            }
+
+            .content .title {
+
+                color:white;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
-                height: 100vh;
-                margin: 0;
+
+
             }
 
             .full-height {
@@ -39,6 +50,10 @@
                 position: absolute;
                 right: 10px;
                 top: 18px;
+            }
+
+            .content {
+                color: white;
             }
 
             .content {
@@ -65,6 +80,10 @@
         </style>
     </head>
     <body>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -82,13 +101,18 @@
                    BOOKTIME
                 </div>
 
-                Getting started
+         
+                <span class="subtitle">
+                   <button type="button" class="btn btn-success">
+                    Getting started
+                   </button>
+                </span>
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    {{--<a href="https://laravel.com/docs">Documentation</a>--}}
+                    {{--<a href="https://laracasts.com">Laracasts</a>--}}
+                    {{--<a href="https://laravel-news.com">News</a>--}}
+                    {{--<a href="https://forge.laravel.com">Forge</a>--}}
+                    {{--<a href="https://github.com/laravel/laravel">GitHub</a>--}}
                 </div>
             </div>
         </div>
