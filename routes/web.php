@@ -11,7 +11,12 @@
 |
 */
 
+
+//Welcome
 Route::get('/','WelcomeController@index');
+
+//Home
+Route::get('/home','HomeController@index',  ['name' => 'home']);
 
 
 Route::get('/toto', function() {

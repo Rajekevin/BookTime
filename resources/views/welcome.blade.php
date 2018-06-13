@@ -13,8 +13,6 @@
         <!-- Styles -->
         <style>
             html, body {
-
-
                 /*height: 100vh;*/
                 margin:0;
                 padding:0;
@@ -103,7 +101,7 @@
 
 
                 <span class="subtitle">
-                   <button type="button" class="btn btn-success">
+                   <button type="button"  onclick="window.location='{{ url("/home") }}'" class="btn btn-success">
                     Getting started
                    </button>
                 </span>
