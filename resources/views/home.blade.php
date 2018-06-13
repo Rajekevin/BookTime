@@ -14,26 +14,38 @@
 
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
-    <link href="css/font-awesome-5.0.13/css/font-awesome.min.css" rel="stylesheet" media="all">
-    <link href="css/font-awesome-5.0.13/css/font-awesome-all.min.css" rel="stylesheet" media="all">
-    <link href="css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <!-- Material Design Iconic-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
 
     <!-- Bootstrap CSS-->
-    <link href="vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link href="css/animate.css" rel="stylesheet" media="all">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/0.9.3/hamburgers.css" rel="stylesheet" media="all">
 
     <!-- Vendor CSS-->
     <link href="vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
-    <link href="vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
-    <link href="vendor/wow/animate.css" rel="stylesheet" media="all">
-    <link href="vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/css/select2.min.css" rel="stylesheet" media="all">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/1.4.0/css/perfect-scrollbar.css" rel="stylesheet" media="all">
+
+    <!--    <link href="vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
+
+
     <link href="vendor/slick/slick.css" rel="stylesheet" media="all">
-    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
-    <link href="vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
+
+    -->
 
     <!-- Main CSS-->
-    <link href="css/theme.css" rel="stylesheet" media="all">
+ <link href="css/theme.css" rel="stylesheet" media="all">
 
 </head>
+
 
 <body class="animsition">
 <div class="page-wrapper">
@@ -58,7 +70,7 @@
                 <ul class="navbar-mobile__list list-unstyled">
                     <li class="has-sub">
                         <a class="js-arrow" href="#">
-                            <i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                            <i class="fa-user-plus"></i>Dashboard</a>
                         <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
                             <li>
                                 <a href="index.html">Dashboard 1</a>
@@ -76,19 +88,20 @@
                     </li>
                     <li>
                         <a href="chart.html">
-                            <i class="fas fa-chart-bar"></i>Charts</a>
+                            <!-- <i class="fa fa-chart-bar"></i> -->
+                            <i class="fa fa-amazon-pay" aria-hidden="true"></i>Charts</a>
                     </li>
                     <li>
                         <a href="table.html">
-                            <i class="fas fa-table"></i>Tables</a>
+                            <i class="fa fa-table"></i>Tables</a>
                     </li>
                     <li>
                         <a href="form.html">
-                            <i class="far fa-check-square"></i>Forms</a>
+                            <i class="fa fa-check-square"></i>Forms</a>
                     </li>
                     <li>
                         <a href="#">
-                            <i class="fas fa-calendar-alt"></i>Calendar</a>
+                            <i class="fa fa-calendar-alt"></i>Calendar</a>
                     </li>
                     <li>
                         <a href="map.html">
@@ -158,7 +171,7 @@
     <aside class="menu-sidebar d-none d-lg-block">
         <div class="logo">
             <a href="#">
-                <img src="images/icon/logo.png" alt="Cool Admin" />
+                <img src="images/icon/logo.png" alt="Admin Dashboard" />
             </a>
         </div>
         <div class="menu-sidebar__content js-scrollbar1">
@@ -166,7 +179,7 @@
                 <ul class="list-unstyled navbar__list">
                     <li class="active has-sub">
                         <a class="js-arrow" href="#">
-                            <i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                            <i class="fa fa-book-open"></i>Dashboard</a>
                         <ul class="list-unstyled navbar__sub-list js-sub-list">
                             <li>
                                 <a href="index.html">Dashboard 1</a>
@@ -184,15 +197,15 @@
                     </li>
                     <li>
                         <a href="chart.html">
-                            <i class="fas fa-chart-bar"></i>Charts</a>
+                            <i class="fa-user-plus"></i>Charts</a>
                     </li>
                     <li>
                         <a href="table.html">
-                            <i class="fas fa-table"></i>Tables</a>
+                            <i class="fa fa-user-plus"></i>Tables</a>
                     </li>
                     <li>
                         <a href="form.html">
-                            <i class="far fa-check-square"></i>Forms</a>
+                            <i class="fa fa-check-square"></i>Forms</a>
                     </li>
                     <li>
                         <a href="#">
@@ -270,7 +283,7 @@
                 <div class="container-fluid">
                     <div class="header-wrap">
                         <form class="form-header" action="" method="POST">
-                            <input class="au-input au-input--xl" type="text" name="search" placeholder="Search for datas &amp; reports..." />
+                            <input class="au-input au-input--xl" type="text" name="search" placeholder="Recherche &amp; reports..." />
                             <button class="au-btn--submit" type="submit">
                                 <i class="zmdi zmdi-search"></i>
                             </button>
@@ -986,15 +999,15 @@
 </div>
 
 <!-- Jquery JS-->
-<script src="vendor/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 <!-- Bootstrap JS-->
-<script src="vendor/bootstrap-4.1/popper.min.js"></script>
-<script src="vendor/bootstrap-4.1/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/esm/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/esm/popper.min.js"></script>
 <!-- Vendor JS       -->
-<script src="vendor/slick/slick.min.js">
-</script>
-<script src="vendor/wow/wow.min.js"></script>
-<script src="vendor/animsition/animsition.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
 <script src="vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
 </script>
 <script src="vendor/counter-up/jquery.waypoints.min.js"></script>
